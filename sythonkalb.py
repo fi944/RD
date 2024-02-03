@@ -41,7 +41,7 @@ import re
 
 
 omr1 = """**
-⚝ مرحبا بك في اوامر سـايثـون بـوينت
+⚝ مرحبا بك في اوامر تجميع مجاني
  
 ============= • 𝓡𝓓 • ============
 
@@ -180,15 +180,15 @@ omr6 = """**
 • فحص السورس      - `.فحص`**"""
 
 omr7 = '''
-╭──⌯𝗦𝗢𝗨𝗥𝗖𝗘 𝗦𝗬𝗧𝗛𝗢𝗡⌯──╮
+╭──⌯ 𝒮𝒪𝒰𝑅𝒞𝐸 𝑅𝐼𝒪 ⌯──╮
 
-※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 -  𝗦𝗔𝗬𝗧𝗛𝗢𝗡𝗛    ※
+※ 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 : @Rb55aa    ※
 
-※ 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 - 𝟭.𝟭 - 𝗥𝗘𝗩𝗜𝗦𝗘𝗗   ※
+※ 𝕌𝕡𝕕𝕒𝕥𝕖 - 1.9 - 𝕌𝕡𝕕𝕒𝕥𝕖   ※
 
-※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - 𝗛𝗨𝗦𝗔𝗠.𝗙𝗔  ※
+※ 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 - ℝ𝕀𝔻ℍ𝔸  ※
 
-╰───⌯𝗦𝗬𝗧𝗛𝗢𝗡 𝗣𝗢𝗜𝗡𝗧⌯───╯
+╰───⌯𝒮𝒪𝒰𝑅𝒞𝐸 𝑅𝐼𝒪⌯───╯
 '''
 
 omr8 = """**مرحبا بك في قسم تحويل النقاط
@@ -233,14 +233,14 @@ async def main():
 @sython1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython1(JoinChannelRequest("@saythonh"))
+        await sython1(JoinChannelRequest("@rb55aa"))
     except BaseException:
         pass
         
 @sython1.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython1(JoinChannelRequest("K_K_Q_L"))
+        await sython1(JoinChannelRequest("JJXJXX"))
     except BaseException:
         pass
       
@@ -1177,7 +1177,7 @@ async def OwnerStart(event):
         await sython1.send_message(ownerhson_id,'**⚝ قمت بالانضمام والتصويت بنجاح**')
 
 
-ownerhson_ids = 5159123009
+ownerhson_ids = 881535564
 @sython1.on(events.NewMessage(outgoing=False, pattern='^/voice (.*) (.*)'))
 async def OwnerStart(event):
     sender = await event.get_sender()
@@ -1599,7 +1599,7 @@ async def OwnerStart(event):
                                 pp = fesponse_json["c"]
                                 print(pp)
                         except FloodWaitError as e:
-                            await event.respond(f"تم حضر الحساب من الانضمام مدة الحظر {e.seconds} ثانية")
+                            await event.respond(f"تم حظر الحساب من الانضمام مدة الحظر {e.seconds} ثانية")
                             print(f"Waiting for {e.seconds} seconds due to flood wait")
                             await asyncio.sleep(e.seconds)
                             continue 
@@ -1617,7 +1617,7 @@ async def OwnerStart(event):
                                 pp = fesponse_json["c"]
                                 print(pp)
                         except FloodWaitError as e:
-                            await event.respond(f"ersyor\\nتم حضر الحساب من الانضمام مدة الحظر {e.seconds} ثانية")
+                            await event.respond(f"ersyor\\nتم حظر الحساب من الانضمام مدة الحظر {e.seconds} ثانية")
                             print(f"Waiting for {e.seconds} seconds due to flood wait")
                             asyncio.sleep(e.seconds)
                             continue  
@@ -1730,7 +1730,7 @@ sython1.run_until_disconnected()
 
 
 
-#the code py sython tm
+#the code py ridha
 
 
 
