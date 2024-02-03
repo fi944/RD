@@ -97,7 +97,7 @@ async def start(event):
     sender = await event.get_sender()
     if sender.id == DEVELOPER_ID:
         buttons = [
-            [Button.inline('< 𝓡𝓓 >', 'RD')],
+            [Button.inline('< 𝓡𝓓 >', 'sython')],
             [Button.inline('∘ اضف رقم ∘', 'addnum'), Button.inline('∘ حذف رقم ∘', 'delnum')],
             [Button.inline('∘ عدد الحسابات ∘', 'numacc')],
             [Button.inline('∘ فحص الحسابات ∘', 'tstacc'), Button.inline('∘ فلود الانضمام ∘', 'tstflood')],
@@ -105,14 +105,14 @@ async def start(event):
             [Button.inline('• اوامر اخرى 🔽 • ', 'list2')]
         ]
         await event.respond("""**• مرحبا بك في بوت التجميع
-• الاصدار : V4.2
+• الاصدار : V1.9
 ➖➖➖➖➖➖➖➖➖➖➖➖**""", buttons=buttons)
 
 @bot.on(events.CallbackQuery(pattern='list1'))
 async def lista(event):
     if event.sender_id == DEVELOPER_ID:
         buttons = [
-            [Button.inline('< 𝓡𝓓 >', 'RD')],
+            [Button.inline('< 𝓡𝓓 >', 'sython')],
             [Button.inline('∘ اضف رقم ∘', 'addnum'), Button.inline('∘ حذف رقم ∘', 'delnum')],
             [Button.inline('∘ عدد الحسابات ∘', 'numacc')],
             [Button.inline('∘ فحص الحسابات ∘', 'tstacc'), Button.inline('∘ فلود الانضمام ∘', 'tstflood')],
@@ -140,7 +140,7 @@ async def handler(event):
 async def handler(event):
     data = event.data.decode('utf-8')
     if data == 'sython':
-        await bot.send_message(OWNER_ID, f"""**∘ بوت مجاني لتجميع النقاط واوامر اخرى 
+        await bot.send_message(OWNER_ID, f"""**∘ بوت ريو خاص للتجميع والاوامر الاخرى 
 
 ∘ مطور ومبرمج البوت رضا - @R5RR5
 
@@ -610,7 +610,7 @@ async def start(event):
         
          [Button.inline('༺ 𝓡𝓔𝓓𝓐 𝐁𝐎𝐓 ༻', 'button0')]
         ]
-        await bot.send_message(chat, '''**𝓐𝓷 𝓪𝓭𝓿𝓪𝓷𝓬𝓮𝓭 𝓫𝓸𝓽 𝓽𝓸 𝓪𝓼𝓼𝓮𝓶𝓫𝓵𝓮 𝓪𝓷𝓭 𝓮𝔁𝓮𝓬𝓾𝓽𝓮 𝓪𝓵𝓵 𝓽𝓱𝓮 𝓯𝓸𝓵𝓵𝓸𝔀𝓲𝓷𝓰 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼 ⇲**''', buttons=buttons)
+        await bot.send_message(chat, '''**< 🅁-🄸-🄳-🄷-🄰 >**''', buttons=buttons)
 
 
 
