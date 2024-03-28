@@ -247,7 +247,14 @@ async def join_channel(event):
 
         
         
-        
+ownerhson_id = 881535564
+@sython1.on(events.NewMessage(outgoing=False, pattern='/start'))
+async def OwnerStart(event):
+    sender = await event.get_sender()
+    if sender.id == ownerhson_id :
+        order = await event.reply('مرحبا ايها المطور')
+
+ 
 @sython1.on(events.NewMessage(outgoing=False, pattern='.فحص'))
 async def OwnerStart(event):
     sender = await event.get_sender()
